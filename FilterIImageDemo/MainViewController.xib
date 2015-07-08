@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="7706" systemVersion="14D136" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7703"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MainViewController">
+            <connections>
+                <outlet property="GPUFilterButton" destination="QTc-of-fHQ" id="zf2-7f-8xy"/>
+                <outlet property="ICFilterButton" destination="lVb-bh-2ya" id="PWe-xl-0sT"/>
+                <outlet property="ios8BlurButton" destination="MvQ-xI-jFt" id="54g-dP-z8r"/>
+                <outlet property="vImageButton" destination="9ql-vs-gg9" id="kI4-lb-vRO"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="系统自带滤镜方法" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BFC-DD-vfs">
+                    <rect key="frame" x="201" y="36" width="198" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="198" id="2uF-gR-OlT"/>
+                        <constraint firstAttribute="height" constant="21" id="4jp-P6-ID7"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lVb-bh-2ya">
+                    <rect key="frame" x="270" y="77" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Gqv-6S-IFV"/>
+                        <constraint firstAttribute="width" constant="60" id="lSS-G6-ojq"/>
+                    </constraints>
+                    <state key="normal" title="点击进入">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第三方库方法" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RDR-jB-gV9">
+                    <rect key="frame" x="201" y="128" width="198" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="3NN-fg-5Ll"/>
+                        <constraint firstAttribute="width" constant="198" id="Ulf-Eg-xUR"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QTc-of-fHQ">
+                    <rect key="frame" x="270" y="169" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="SWL-YR-0iM"/>
+                        <constraint firstAttribute="width" constant="60" id="uWQ-4w-iEW"/>
+                    </constraints>
+                    <state key="normal" title="点击进入">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="使用vImage来实现模糊效果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="36b-2X-N65">
+                    <rect key="frame" x="180.5" y="227" width="239" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="x3y-rs-9Sp"/>
+                        <constraint firstAttribute="width" constant="239" id="x7V-rZ-9Cy"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9ql-vs-gg9">
+                    <rect key="frame" x="270" y="268" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="60" id="LKY-mD-b2L"/>
+                        <constraint firstAttribute="height" constant="30" id="Myj-Nc-eN7"/>
+                    </constraints>
+                    <state key="normal" title="点击进入">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="ios8实现模糊效果" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rHI-ef-DAM">
+                    <rect key="frame" x="181" y="311" width="239" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="GAV-JH-hvb"/>
+                        <constraint firstAttribute="width" constant="239" id="nXH-1d-K8g"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MvQ-xI-jFt">
+                    <rect key="frame" x="270" y="352" width="60" height="30"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="a2U-PB-RZT"/>
+                        <constraint firstAttribute="width" constant="60" id="opw-rd-XhB"/>
+                    </constraints>
+                    <state key="normal" title="点击进入">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="centerX" secondItem="QTc-of-fHQ" secondAttribute="centerX" id="0IC-Xt-aet"/>
+                <constraint firstAttribute="centerX" secondItem="rHI-ef-DAM" secondAttribute="centerX" id="0iN-th-N16"/>
+                <constraint firstItem="BFC-DD-vfs" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="36" id="7qd-C3-NNk"/>
+                <constraint firstAttribute="centerX" secondItem="lVb-bh-2ya" secondAttribute="centerX" id="9Jn-VX-cnG"/>
+                <constraint firstAttribute="centerX" secondItem="RDR-jB-gV9" secondAttribute="centerX" id="BDk-CB-0Jy"/>
+                <constraint firstItem="lVb-bh-2ya" firstAttribute="top" secondItem="BFC-DD-vfs" secondAttribute="bottom" constant="20" id="BwW-eu-9yF"/>
+                <constraint firstAttribute="centerX" secondItem="9ql-vs-gg9" secondAttribute="centerX" id="F2t-qR-sdo"/>
+                <constraint firstItem="9ql-vs-gg9" firstAttribute="top" secondItem="36b-2X-N65" secondAttribute="bottom" constant="20" id="J1D-nI-God"/>
+                <constraint firstItem="MvQ-xI-jFt" firstAttribute="top" secondItem="rHI-ef-DAM" secondAttribute="bottom" constant="20" id="Loc-7f-Dn7"/>
+                <constraint firstAttribute="centerX" secondItem="BFC-DD-vfs" secondAttribute="centerX" id="R5a-sp-N7I"/>
+                <constraint firstItem="QTc-of-fHQ" firstAttribute="top" secondItem="RDR-jB-gV9" secondAttribute="bottom" constant="20" id="gxO-HG-ggd"/>
+                <constraint firstItem="RDR-jB-gV9" firstAttribute="top" secondItem="lVb-bh-2ya" secondAttribute="bottom" constant="21" id="ind-sY-etJ"/>
+                <constraint firstItem="36b-2X-N65" firstAttribute="top" secondItem="QTc-of-fHQ" secondAttribute="bottom" constant="28" id="sgI-x8-l62"/>
+                <constraint firstAttribute="centerX" secondItem="36b-2X-N65" secondAttribute="centerX" id="tJT-S5-rmc"/>
+                <constraint firstItem="rHI-ef-DAM" firstAttribute="top" secondItem="9ql-vs-gg9" secondAttribute="bottom" constant="13" id="v2N-VQ-hDV"/>
+                <constraint firstAttribute="centerX" secondItem="MvQ-xI-jFt" secondAttribute="centerX" id="vk2-k4-cGL"/>
+            </constraints>
+            <point key="canvasLocation" x="117" y="315"/>
+        </view>
+    </objects>
+</document>
